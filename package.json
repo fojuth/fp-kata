@@ -1,0 +1,13 @@
+{
+  "name": "fp-kata",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Fen",
+  "license": "MIT",
+  "dependencies": {
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest"
+  }
+}
