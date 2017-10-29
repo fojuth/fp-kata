@@ -1,19 +1,18 @@
 const ifElse = require('../src/ifElse')
-const T = require('../src/T')
-const F = require('../src/F')
+const always = require('../src/always')
 
 const equals3 = ifElse(
   value => value === 3,
-  T,
-  F
+  always(5),
+  always(10)
 )
 
 describe('ifElse', () => {
   it('returns the result of second function passed when condition is met', () => {
-    expect(equals3(3)).toBe(true)
+    expect(equals3(3)).toBe(5)
   })
 
   it('returns the result of third function passed when condition is not met', () => {
-    expect(equals3(5)).toBe(false)
+    expect(equals3(5)).toBe(10)
   })
 })
