@@ -201,7 +201,7 @@ Experimental reimplementation of Ramda functions
 | splitEvery | |
 | splitWhen | |
 | startsWith | |
-| subtract | |
+| **subtract** | **yes** |
 | sum | |
 | symmetricDifference | |
 | symmetricDifferenceWith | |
