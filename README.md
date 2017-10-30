@@ -165,7 +165,7 @@ Experimental reimplementation of Ramda functions
 | pick | |
 | pickAll | |
 | pickBy | |
-| pipe | |
+| **pipe** | **yes** |
 | pipeK | |
 | pipeP | |
 | pluck | |
