@@ -13,7 +13,7 @@ const callFunction = (func, args) => funcs => {
 
 const callFunctionRecursive = (func, ...args) => (...funcs) => (
   ifElse(
-    funcs => prop('length', funcs), // FIXME: update once prop is curried
+    prop('length'),
     callFunction(func, args),
     () => func(...args)
   )(funcs)

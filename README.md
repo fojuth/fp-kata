@@ -42,7 +42,7 @@ Experimental reimplementation of Ramda functions
 | contains | |
 | converge | |
 | countBy | |
-| curry | |
+| **curry** | **yes** |
 | curryN | |
 | dec | |
 | defaultTo | |

@@ -1,3 +1,5 @@
+// FIXME: refactor and simplify
+
 const partial = require('./partial')
 
 const curry = (f, argsAmount, argsPassed = 0, args) => {
@@ -7,12 +9,8 @@ const curry = (f, argsAmount, argsPassed = 0, args) => {
     return f(...args)
   }
   else {
-    return (...a) => curry(partial(f, args), argsAmount, argsPassed, a)
+    return (...nextArgs) => curry(partial(f, args), argsAmount, argsPassed, nextArgs)
   }
 }
 
-module.exports = f => (...args) => {
-  const argsAmount = f.length
-
-  return curry(f, argsAmount, 0, args)
-}
+module.exports = f => (...args) => curry(f, f.length, 0, args)
