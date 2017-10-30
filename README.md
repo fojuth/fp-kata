@@ -5,7 +5,7 @@ Experimental reimplementation of Ramda functions
 | Function | Implemented? |
 | -------- | ------------ |
 | __ | |
-| add | |
+| **add** | **yes** |
 | addIndex | |
 | adjust | |
 | **all** | **yes** |
