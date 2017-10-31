@@ -15,7 +15,7 @@ I'm doing this to practice JS, FP and have fun :)
 | **always** | **yes** |
 | and | |
 | **any** | **yes** |
-| anyPass | |
+| **anyPass** | **yes** |
 | ap | |
 | aperture | |
 | append | |
