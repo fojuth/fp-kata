@@ -1,5 +1,7 @@
 # fp-kata
-Experimental reimplementation of Ramda functions
+Experimental reimplementation of Ramda functions. This is not a one-to-one implementation, e.g. `equals` does not support other types than `Number`.
+
+I'm doing this to practice JS, FP and have fun :)
 
 ## Function list
 | Function | Implemented? |
@@ -63,7 +65,7 @@ Experimental reimplementation of Ramda functions
 | endsWith | |
 | eqBy | |
 | eqProps | |
-| equals | |
+| **equals** | **yes** |
 | evolve | |
 | **F** | **yes** |
 | filter | |
