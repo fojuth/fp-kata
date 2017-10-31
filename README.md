@@ -78,7 +78,7 @@ Experimental reimplementation of Ramda functions
 | fromPairs | |
 | groupBy | |
 | groupWith | |
-| gt | |
+| **gt** | **yes** |
 | gte | |
 | has | |
 | hasIn | |
